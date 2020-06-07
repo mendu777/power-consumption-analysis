@@ -1,0 +1,111 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style type="text/css">
+    .border{
+  border-radius: 25px;
+   padding: 20px; 
+  border: 4px solid black;
+  background-color: white
+  
+}
+.jumbotron text-center{
+  background-color: white
+}
+  </style>
+  <title>Power Analysis App</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body background="data:image/jpeg;base64,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">
+
+<div class="jumbotron text-center">
+  
+  <h1>Power Consumption Analysis For House Holds</h1>
+ </div> 
+
+  
+<div class="container">
+  <div class="row">
+
+      <div class="col-sm-4">
+        <div class="border">
+        
+        <u><h3>Data Visualization</h3></u>
+      <ul><u><li><h4>Analysis-over a month and quater</h4></li></u>
+      <li><p>Global active power</p></li>
+      <li><p>Voltage</p></li>
+      <li><p>Submetering1(kitchen)</p></li>
+      <li><p>Submetering2(laundry)</p></li>
+      <li><p>Submetering3(climate control)</p></li>
+      <li><u><h4>Analysis of all parameters over a week</h4></u></li>
+      <li><u><h4>Reactive power analysis</h4></u></li>
+      <li><p>Reactive power with Submetering1</p></li>
+      <li><p>Reactive power with Submetering2</p></li>
+      <li><p>Reactive power with Submetering3</p></li>
+      <li><p>Reactive power with global active power</p></li>
+      <li><a href="http://localhost:5000/datavis"><u><h4>Get complete data visualization</h4></u></li></ul></a>
+    </div>
+
+    </div>
+  
+      
+    <div class="col-sm-4">
+      <div class="border">
+      <h3>ABOUT</h3>
+      <p align="justify">We have proposed a system that analyzes electricity consumption of individual
+appliances, identify the energy consumption patterns apply statistical modeling
+and suggest users about reduction of power consumption.The main objective
+of this project is to analyze and visualize the energy consumption. The regular
+consumption is captured through sensor and stored in database.We applied various
+exploratory data analysis using various libraries, visualize them using matplotlib
+and seaborn and suggest the user based on consumption. Web application to
+visualize the Analysis. Get insights from the data. suggests the user based on insights.</p> 
+<p>Things used:</p>
+<ul>
+  <li>Time series analysis</li>
+  <li>Matplots</li>
+<li>Resampling techniques</li>
+<li>Multiple regression</li>
+
+<li>Python for data analysis</li></ul>
+
+    </div></div>
+    
+    
+
+    <div class="col-sm-4">
+      <div class="border">
+      <h3>Prediction</h3>        
+      <div class="form-group">
+      <form action="http://localhost:5000/login" method="POST">
+  <label>Voltage:</label>
+  <input type="text" class="form-control" name= "vol">
+  <label>Submetering1:</label>
+  <input type="text" class="form-control" name="sb1">
+  <label>Submetering2</label>
+  <input type="text" class="form-control" name="sb2">
+  <label>Submetering3</label>
+  <input type="text" class="form-control" name="sb3">
+<label>Global reactive power</label>
+  <input type="text" class="form-control" name="gr">
+  <label>Global intensity</label>
+  <input type="text" class="form-control" name="gi"><br>
+  <button>Submit</button>
+  <p>Global active power:</p>
+  <b>{{label}}</b>
+  </form>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
